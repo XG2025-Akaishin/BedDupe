@@ -48,7 +48,7 @@ public final class BedDupe extends JavaPlugin { // PLUGIN CREADO POR XG2025 + An
             if(event.getClickedBlock() == null) return;
 
             if (block.getType().equals(Material.BLUE_BED) && event.getAction().equals(Action.RIGHT_CLICK_BLOCK)) {
-                if (!(event.getPlayer().getInventory().getItemInMainHand().getType() == Material.AIR)) {
+                if (event.getPlayer().getInventory().getItemInMainHand().getType() != Material.AIR) {
                 int rng = (int)Math.round(Math.random() * 100);
                     if (rng < getConfig().getInt("probability-percentage")) {
                         block.getWorld().dropItemNaturally(block.getLocation().add(0, 1, 0), p.getInventory().getItemInMainHand());
@@ -57,7 +57,7 @@ public final class BedDupe extends JavaPlugin { // PLUGIN CREADO POR XG2025 + An
             }
 
             if (block.getType().equals(Material.BLACK_BED) && event.getAction().equals(Action.RIGHT_CLICK_BLOCK)) {
-                if (!(event.getPlayer().getInventory().getItemInMainHand().getType() == Material.AIR)) {
+                if (event.getPlayer().getInventory().getItemInMainHand().getType() != Material.AIR) {
                 int rng = (int)Math.round(Math.random() * 100);
                     if (rng < getConfig().getInt("probability-percentage")) {
                         block.getWorld().dropItemNaturally(block.getLocation().add(0, 1, 0), p.getInventory().getItemInMainHand());
@@ -66,7 +66,7 @@ public final class BedDupe extends JavaPlugin { // PLUGIN CREADO POR XG2025 + An
             }
 
             if (block.getType().equals(Material.BROWN_BED) && event.getAction().equals(Action.RIGHT_CLICK_BLOCK)) {
-                if (!(event.getPlayer().getInventory().getItemInMainHand().getType() == Material.AIR)) {
+                if (event.getPlayer().getInventory().getItemInMainHand().getType() != Material.AIR) {
                 int rng = (int)Math.round(Math.random() * 100);
                     if (rng < getConfig().getInt("probability-percentage")) {
                         block.getWorld().dropItemNaturally(block.getLocation().add(0, 1, 0), p.getInventory().getItemInMainHand());
@@ -75,7 +75,7 @@ public final class BedDupe extends JavaPlugin { // PLUGIN CREADO POR XG2025 + An
             }
 
             if (block.getType().equals(Material.RED_BED) && event.getAction().equals(Action.RIGHT_CLICK_BLOCK)) {
-                if (!(event.getPlayer().getInventory().getItemInMainHand().getType() == Material.AIR)) {
+                if (event.getPlayer().getInventory().getItemInMainHand().getType() != Material.AIR) {
                 int rng = (int)Math.round(Math.random() * 100);
                     if (rng < getConfig().getInt("probability-percentage")) {
                         block.getWorld().dropItemNaturally(block.getLocation().add(0, 1, 0), p.getInventory().getItemInMainHand());
@@ -84,7 +84,7 @@ public final class BedDupe extends JavaPlugin { // PLUGIN CREADO POR XG2025 + An
             }
 
             if (block.getType().equals(Material.GREEN_BED) && event.getAction().equals(Action.RIGHT_CLICK_BLOCK)) {
-                if (!(event.getPlayer().getInventory().getItemInMainHand().getType() == Material.AIR)) {
+                if (event.getPlayer().getInventory().getItemInMainHand().getType() != Material.AIR) {
                 int rng = (int)Math.round(Math.random() * 100);
                     if (rng < getConfig().getInt("probability-percentage")) {
                         block.getWorld().dropItemNaturally(block.getLocation().add(0, 1, 0), p.getInventory().getItemInMainHand());
@@ -93,7 +93,7 @@ public final class BedDupe extends JavaPlugin { // PLUGIN CREADO POR XG2025 + An
             }
 
             if (block.getType().equals(Material.CYAN_BED) && event.getAction().equals(Action.RIGHT_CLICK_BLOCK)) {
-                if (!(event.getPlayer().getInventory().getItemInMainHand().getType() == Material.AIR)) {
+                if (event.getPlayer().getInventory().getItemInMainHand().getType() != Material.AIR) {
                 int rng = (int)Math.round(Math.random() * 100);
                     if (rng < getConfig().getInt("probability-percentage")) {
                         block.getWorld().dropItemNaturally(block.getLocation().add(0, 1, 0), p.getInventory().getItemInMainHand());
@@ -102,7 +102,7 @@ public final class BedDupe extends JavaPlugin { // PLUGIN CREADO POR XG2025 + An
             }
 
             if (block.getType().equals(Material.LIGHT_GRAY_BED) && event.getAction().equals(Action.RIGHT_CLICK_BLOCK)) {
-                if (!(event.getPlayer().getInventory().getItemInMainHand().getType() == Material.AIR)) {
+                if (event.getPlayer().getInventory().getItemInMainHand().getType() != Material.AIR) {
                 int rng = (int)Math.round(Math.random() * 100);
                     if (rng < getConfig().getInt("probability-percentage")) {
                         block.getWorld().dropItemNaturally(block.getLocation().add(0, 1, 0), p.getInventory().getItemInMainHand());
@@ -111,7 +111,7 @@ public final class BedDupe extends JavaPlugin { // PLUGIN CREADO POR XG2025 + An
             }
 
             if (block.getType().equals(Material.PURPLE_BED) && event.getAction().equals(Action.RIGHT_CLICK_BLOCK)) {
-                if (!(event.getPlayer().getInventory().getItemInMainHand().getType() == Material.AIR)) {
+                if (event.getPlayer().getInventory().getItemInMainHand().getType() != Material.AIR) {
                 int rng = (int)Math.round(Math.random() * 100);
                     if (rng < getConfig().getInt("probability-percentage")) {
                         block.getWorld().dropItemNaturally(block.getLocation().add(0, 1, 0), p.getInventory().getItemInMainHand());
@@ -120,7 +120,7 @@ public final class BedDupe extends JavaPlugin { // PLUGIN CREADO POR XG2025 + An
             }
 
             if (block.getType().equals(Material.YELLOW_BED) && event.getAction().equals(Action.RIGHT_CLICK_BLOCK)) {
-                if (!(event.getPlayer().getInventory().getItemInMainHand().getType() == Material.AIR)) {
+                if (event.getPlayer().getInventory().getItemInMainHand().getType() != Material.AIR) {
                 int rng = (int)Math.round(Math.random() * 100);
                     if (rng < getConfig().getInt("probability-percentage")) {
                         block.getWorld().dropItemNaturally(block.getLocation().add(0, 1, 0), p.getInventory().getItemInMainHand());
@@ -129,7 +129,7 @@ public final class BedDupe extends JavaPlugin { // PLUGIN CREADO POR XG2025 + An
             }
 
             if (block.getType().equals(Material.LIME_BED) && event.getAction().equals(Action.RIGHT_CLICK_BLOCK)) {
-                if (!(event.getPlayer().getInventory().getItemInMainHand().getType() == Material.AIR)) {
+                if (event.getPlayer().getInventory().getItemInMainHand().getType() != Material.AIR) {
                 int rng = (int)Math.round(Math.random() * 100);
                     if (rng < getConfig().getInt("probability-percentage")) {
                         block.getWorld().dropItemNaturally(block.getLocation().add(0, 1, 0), p.getInventory().getItemInMainHand());
@@ -138,7 +138,7 @@ public final class BedDupe extends JavaPlugin { // PLUGIN CREADO POR XG2025 + An
             }
 
             if (block.getType().equals(Material.ORANGE_BED) && event.getAction().equals(Action.RIGHT_CLICK_BLOCK)) {
-                if (!(event.getPlayer().getInventory().getItemInMainHand().getType() == Material.AIR)) {
+                if (event.getPlayer().getInventory().getItemInMainHand().getType() != Material.AIR) {
                 int rng = (int)Math.round(Math.random() * 100);
                     if (rng < getConfig().getInt("probability-percentage")) {
                         block.getWorld().dropItemNaturally(block.getLocation().add(0, 1, 0), p.getInventory().getItemInMainHand());
@@ -147,7 +147,7 @@ public final class BedDupe extends JavaPlugin { // PLUGIN CREADO POR XG2025 + An
             }
 
             if (block.getType().equals(Material.MAGENTA_BED) && event.getAction().equals(Action.RIGHT_CLICK_BLOCK)) {
-                if (!(event.getPlayer().getInventory().getItemInMainHand().getType() == Material.AIR)) {
+                if (event.getPlayer().getInventory().getItemInMainHand().getType() != Material.AIR) {
                 int rng = (int)Math.round(Math.random() * 100);
                     if (rng < getConfig().getInt("probability-percentage")) {
                         block.getWorld().dropItemNaturally(block.getLocation().add(0, 1, 0), p.getInventory().getItemInMainHand());
@@ -156,7 +156,7 @@ public final class BedDupe extends JavaPlugin { // PLUGIN CREADO POR XG2025 + An
             }
 
             if (block.getType().equals(Material.PINK_BED) && event.getAction().equals(Action.RIGHT_CLICK_BLOCK)) {
-                if (!(event.getPlayer().getInventory().getItemInMainHand().getType() == Material.AIR)) {
+                if (event.getPlayer().getInventory().getItemInMainHand().getType() != Material.AIR) {
                 int rng = (int)Math.round(Math.random() * 100);
                     if (rng < getConfig().getInt("probability-percentage")) {
                         block.getWorld().dropItemNaturally(block.getLocation().add(0, 1, 0), p.getInventory().getItemInMainHand());
@@ -165,7 +165,7 @@ public final class BedDupe extends JavaPlugin { // PLUGIN CREADO POR XG2025 + An
             }
 
             if (block.getType().equals(Material.WHITE_BED) && event.getAction().equals(Action.RIGHT_CLICK_BLOCK)) {
-                if (!(event.getPlayer().getInventory().getItemInMainHand().getType() == Material.AIR)) {
+                if (event.getPlayer().getInventory().getItemInMainHand().getType() != Material.AIR) {
                 int rng = (int)Math.round(Math.random() * 100);
                     if (rng < getConfig().getInt("probability-percentage")) {
                         block.getWorld().dropItemNaturally(block.getLocation().add(0, 1, 0), p.getInventory().getItemInMainHand());
